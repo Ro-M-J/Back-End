@@ -5,7 +5,7 @@
 package com.portfolio.mgb.Security.Controller;
 
 import org.springframework.http.HttpStatus;
-//mensaje q se teinen q imprimir si funciona
+//mensaje q se teinen q imprimir si funciona, lo podemos ver nosotros por pantalla
 public class Mensaje {
  
      private String mensaje;

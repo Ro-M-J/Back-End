@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 
-//de aca llama la postamn para ver como fucniciona la api 
+//de aca llama la postamn para ver como funcion API
 @RestController
 @RequestMapping("/auth")
 @CrossOrigin

@@ -6,7 +6,7 @@ package com.portfolio.mgb.Security.Dto;
 
 import java.util.Collection;
 import org.springframework.security.core.GrantedAuthority;
-//clase  jwt dto  con token
+//clase  jwtDto  con token
 
 public class JwtDto {
     

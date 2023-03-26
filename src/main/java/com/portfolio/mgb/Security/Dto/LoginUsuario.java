@@ -6,7 +6,7 @@ package com.portfolio.mgb.Security.Dto;
 
 import jakarta.validation.constraints.NotBlank;
 
-//tabla de usuario lo creo en mysql
+//tabla de usuario lo creo en mysql workbench
 public class LoginUsuario {
     @NotBlank
     private String nombreUsuario;
