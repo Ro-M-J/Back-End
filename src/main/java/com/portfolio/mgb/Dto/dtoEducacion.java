@@ -2,33 +2,24 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package com.portfolio.mgb.Entity;
+package com.portfolio.mgb.Dto;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
+import jakarta.validation.constraints.NotBlank;
 
-@Entity
-public class Educacion {
-    @Id
-    @GeneratedValue(strategy=GenerationType.IDENTITY)
-    private int id;
+
+public class dtoEducacion {
+   
+    @NotBlank
     private String nombreE;
+    @NotBlank
     private String descripcionE;
-    
-    public Educacion(String nombreE,String descripcionE){
-    
-       this.nombreE=nombreE;
-       this.descripcionE=descripcionE;
+
+    public dtoEducacion() {
     }
 
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
+    public dtoEducacion(String nombreE, String descripcionE) {
+        this.nombreE = nombreE;
+        this.descripcionE = descripcionE;
     }
 
     public String getNombreE() {
@@ -46,7 +37,6 @@ public class Educacion {
     public void setDescripcionE(String descripcionE) {
         this.descripcionE = descripcionE;
     }
-    
     
     
 }
