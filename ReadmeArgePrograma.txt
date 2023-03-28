@@ -15,5 +15,5 @@ fucionaba lo hari al hacer deploy pero como hice a ultimo momento el deploy no t
 Adjunto el link  de drive para que se muestre que en mi maquina podia correr el programa y también adjunto fotos para que se vean las tablas creadas en MySql Workbench ,espero que me den la posiblidad para corregir los errores.
 https://drive.google.com/drive/folders/1nQhuB2duE0uKfgeXaDsxKtjX1sNS65VN
 
-
+Nota:En el repo por alguna razón se creo la rama master y solo me dejaba hacer push ahí por eso los ultimos commits estan en era rama.
 saludos.
